@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": "{\"text\":\"Silver Trading Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}",
+                "lore": [
+                  "{\"text\":\"A trophy for trading 300 times.\",\"color\":\"white\",\"italic\":false}","{\"text\":\" \"}",
+                  "{\"text\":\"Trading Tier2:\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"You have traded some times\",\"color\":\"gray\",\"italic\":false}"
+                ],
+                "custom_model_data": 4000223
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

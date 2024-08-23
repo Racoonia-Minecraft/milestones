@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "warped_fungus_on_a_stick",
+            "components": {
+                "custom_model_data": 4000236
+            }
+        },
+        "title": "Play Time Tier2",
+        "description": "You have played for some hours",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "milestones:play/bronze",
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "_milestones:tier/silver",
+        "loot": [
+            "milestones:play/silver"
+        ]
+    }
+}

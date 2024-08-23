@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": "{\"text\":\"Golden Killing Trophy\",\"color\":\"#FDF55F\",\"italic\":false}",
+                "lore": [
+                  "{\"text\":\"A trophy for killing 5,000 mobs.\",\"color\":\"white\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Apex Predator:\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"I find it's best to wait... for the perfect kill\",\"color\":\"gray\",\"italic\":false}"
+                ],
+                "custom_model_data": 4000209
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

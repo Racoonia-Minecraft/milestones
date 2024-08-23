@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "iron_axe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": "{\"text\":\"Bronze Killing Trophy\",\"color\":\"#C15A36\",\"italic\":false}",
+                "lore": [
+                  "{\"text\":\"A trophy for killing 50 mobs.\",\"color\":\"white\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Hunter:\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"Be the hunter, not he hunted\",\"color\":\"gray\",\"italic\":false}"
+                ],
+                "custom_model_data": 4000207,
+                "unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "warped_fungus_on_a_stick",
+            "components": {
+                "custom_model_data": 4000236
+            }
+        },
+        "title": "Do you have a life?",
+        "description": "Please log off...",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "milestones:play/silver",
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "_milestones:tier/gold",
+        "loot": [
+            "milestones:play/gold"
+        ]
+    }
+}

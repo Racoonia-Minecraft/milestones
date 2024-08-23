@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "warped_fungus_on_a_stick",
+      "components": {
+        "custom_model_data": 4000200
+      }
+    },
+    "title": "Milestones",
+    "description": "Milestones for everything",
+    "background": "textures/block/yellow_terracotta.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "tick"
+    }
+  }
+}
